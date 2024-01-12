@@ -20,5 +20,5 @@ bonus:
 clean:
 	cd p1 && vagrant destroy -f
 	cd p2 && vagrant destroy -f
-	rm -f p1/confs/node-token p1/.vagrant
-	rm -f p2/confs/node-token p1/.vagrant
+	# rm -f p1/confs/node-token p1/.vagrant
+	# rm -f p2/confs/node-token p1/.vagrant

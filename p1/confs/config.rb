@@ -1,5 +1,5 @@
 
-BOX_NAME = "hashicorp/bionic64"
+BOX_NAME =  "centos/8"
 
 MEMORY_SIZE = 1024
 CPU_COUNT = 1
