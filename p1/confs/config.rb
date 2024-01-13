@@ -1,5 +1,5 @@
 
-BOX_NAME =  "centos/8"
+BOX_NAME =  "generic/debian12"
 
 MEMORY_SIZE = 1024
 CPU_COUNT = 1
