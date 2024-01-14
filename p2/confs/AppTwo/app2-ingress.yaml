@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: app2
+  name: app-two
   annotations:
     spec.ingressClassName: "nginx"
 spec:
@@ -13,6 +13,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: app2
+            name: app-two
             port:
               number: 80
