@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: hello-kubernetes
-        image: murachid/hello-world-web:v1
+        image: murachid/hello-world-web:v2
         ports:
         - containerPort: 8080
